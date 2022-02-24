@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+.nav, .nav-links {
+    background-color: #404040;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-self: center;
+    gap: 20px;
+    list-style: none;
+    padding: 10px 10px;
+    
+}
+.nav-title {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+
+}
+
+.btn {
+    background-color: turquoise;
+    border: 2px solid black;
+    color: white;
+    box-shadow: 2px 3px black;
+}
+.active {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
