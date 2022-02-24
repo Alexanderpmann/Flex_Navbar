@@ -4,24 +4,35 @@
     box-sizing: 0;
 }
 
-.nav, .nav-links {
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav {
     background-color: #404040;
     color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
+    height: 80px;
+    width: auto;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
-    align-self: center;
-    gap: 20px;
-    list-style: none;
-    padding: 10px 10px;
-    
+    align-items: center;
+    justify-content: space-between;
 }
-.nav-title {
-    flex-flow: row wrap;
-    justify-content: flex-start;
 
+.nav-links {
+        width: 50%;
+        display:inline-flex;
+        align-items: center;
+        list-style-type: none;
+        justify-content: space-around;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-title {
+    margin-left: 20px;
 }
 
 .btn {
@@ -29,14 +40,15 @@
     border: 2px solid black;
     color: white;
     box-shadow: 2px 3px black;
+    font-size: 16px;
+    height: 35px;
+    width: 100px;
 }
+
 .active {
     font-weight: bold;
     color: white;
     text-decoration: none;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
+
